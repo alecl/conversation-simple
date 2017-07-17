@@ -35,6 +35,34 @@ You can use an exisiting instance of the Conversation service. Otherwise, follow
     cf login
     ```
 
+```bash
+$ cf api api.ng.bluemix.net
+Setting api endpoint to api.ng.bluemix.net...
+OK
+
+api endpoint:   https://api.ng.bluemix.net
+api version:    2.75.0
+Not logged in. Use 'cf login' to log in.
+
+$ cf login
+API endpoint: https://api.ng.bluemix.net
+
+Email> <bluemix email login>
+
+Password>
+Authenticating...
+OK
+
+Targeted org <org name>
+
+Targeted space <space name>
+
+API endpoint:   https://api.ng.bluemix.net (API version: 2.75.0)
+User:           <bluemix email login>
+Org:            <org name>
+Space:          <space name>
+```
+
 1. Create an instance of the Conversation service in Bluemix. For example:
 
     ```bash
